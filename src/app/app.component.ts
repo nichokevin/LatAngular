@@ -25,4 +25,6 @@ export class AppComponent  {
     nama: 'abc'
   }
   
+  a: boolean = true;
+  b: boolean = false;
 }
