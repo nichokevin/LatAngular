@@ -26,3 +26,14 @@
   nama user : {{user.nama}}
 </p><!--Jika ada nama user maka di tampilkan-->
 ==================
+<ng-template
+  *ngIf="show;then showBlock; else notShowBlock">
+</ng-template>
+
+<ng-template #showBlock>
+    <p>Show Block</p>
+</ng-template>
+
+<ng-template #notShowBlock>
+    <p>Not Show Block</p>
+</ng-template>
