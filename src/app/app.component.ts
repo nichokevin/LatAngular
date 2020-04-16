@@ -27,4 +27,10 @@ export class AppComponent  {
   
   a: boolean = true;
   b: boolean = false;
+
+  //event
+  Pesan = '';
+  Klikbtn(){
+    this.Pesan = "Tombol di tekan";
+  }
 }
