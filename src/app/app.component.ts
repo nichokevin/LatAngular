@@ -21,7 +21,7 @@ export class AppComponent  {
   //if
   show: boolean = true;
 
-  user={
+  user = {
     nama: 'abc'
   }
   
@@ -32,5 +32,14 @@ export class AppComponent  {
   Pesan = '';
   Klikbtn(){
     this.Pesan = "Tombol di tekan";
+  }
+
+  //Latihan
+  v1=2;
+  v2=3;
+  hasil= Math.pow(this.v1,this.v2);
+  value = '';
+  click(){
+    this.value = "Tombol di tekan";
   }
 }
